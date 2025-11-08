@@ -52,7 +52,7 @@ def print_banner(interface):
     print(Fore.CYAN + "\n" + "="*70)
     print(Fore.GREEN + " "*20 + "HIGH ACCURACY NETWORK SCANNER")
     print(Fore.CYAN + "="*70)
-    print(Fore.YELLOW + f"[*] GitHub    : https://github.com/yourusername/high-accuracy-network-scanner")
+    print(Fore.YELLOW + f"[*] GitHub    : https://github.com/mohammed-bakkali/high-accuracy-network-scanner")
     print(Fore.YELLOW + f"[*] Project   : High Accuracy Network Scanner")
     print(Fore.YELLOW + f"[*] User      : {getpass.getuser()}")
     print(Fore.YELLOW + f"[*] Time      : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -188,3 +188,4 @@ def main():
 if __name__ == "__main__":
     main()
     
+
